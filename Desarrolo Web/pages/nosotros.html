@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de nosotros</title>
-    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
@@ -25,13 +25,35 @@
 
 <main>
     <figure>
-        <img src="../imagenes/Fulbo.jpg" alt="Imagen de jugador celebrando">
+        <img src="../assets/Fulbo.jpg" alt="Imagen de jugador celebrando"
+        width= 250px>
     </figure>
     <section>
         <article>
             <h1>¿Quienes somos?</h1>
             <p>Nos dedicamos a que encuentres las preguntas que todo futbolero quiere saber sobre records y sus clubes</p>
         </article>
+    </section>
+    <section>
+        <h1>Ponete en contacto con nosotros</h1>
+        <p>Completa el siguiente formulario y te responderemos a la brevedad</p>
+
+        <form action="#" method="post">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+        </div>
+
+        <div>
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" name="email" required placeholder="tuemail@gmail.com">
+        </div>
+
+        <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required placeholder="escribi tu consulta aqui..." rows="5">
+        </div>
+        </form>
     </section>
     <section> 
         <h2 id="contacto"></h2>

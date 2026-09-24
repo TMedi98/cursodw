@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Caacupe+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&display=swap');
 /* font-family: "Poppins", sans-serif;*/
+
+/* 1- RESET Y VARIABLES / ESTILOS GLOBALES */
 *{
     margin: 0;
     padding: 0;
@@ -7,20 +9,25 @@
 }
 
 body{
+background-color: #43A1D5;    
 height: 100vh;
 width: 100%;
 font-family: "Poppins", sans-serif
 }
 
-header{background-color: #D5B048;
+/* HEADER Y NAVEGACION */
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #2e278d;
     padding: 20px 0;
     border-bottom: 3px;
 }
 
 header nav ul li{
-    display: inline-block;
     border: 1px #173E69 ;
-    background-color: #173E69;
+    background-color: #aeb3b9;
     color: #ffffff;
     font-size: 2rem;
     padding: 3px;
@@ -29,12 +36,11 @@ header nav ul li{
 
 }
 
+/* SECCIONES PRINCIPALES Y COMPONENTES */
+
 main{
     background-color: #43A1D5;
     background: url(./imagenes/escudo.jpg);
-}
-
-footer{background-color: #173E69;
 }
 
 .seccion1{
@@ -47,3 +53,33 @@ footer{background-color: #173E69;
     padding: 20px;
 }
 
+.primera{
+    margin: 20px;
+}
+
+.jugador{
+    width: 170px;
+    padding: 1px;
+    margin: 20px;
+}
+
+/* FOOTER */
+
+footer{background-color: #173E69;
+}
+
+/* 
+.contenedor
+   background-color (color del contenedor
+   display: flex (lo hace flexible)
+   gap: 10px (es mejor que margin para estos casos)}
+   height : 800px (altura del contenedor)
+   
+   flex-direction: column (hace que el contenedor trabaje con columnas)
+   justify-content: center (hace que se centre horizontalmente)
+   alings-items: center (hace que se centre verticalmente)
+   flex-wrap: wrap (se utiliza para que el contenido se adapte al tamaño de la pantalla)
+   
+   flex-basis: 100px (es para que cada elemento tengo su medida)
+   flex-grow: 1 (es para que cada elemento abarque de forma equitativa los espacios sobrantes)
+   flex-shrink: 1*/
