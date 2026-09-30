@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caacupe+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&display=swap');
+/* font-family: "Poppins", sans-serif;*/
+
+/* 1- RESET Y VARIABLES / ESTILOS GLOBALES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: #43A1D5;  
+font-size: 16px;  
+line-height: 1.5;
+height: 100vh;
+width: 100%;
+font-family: "Poppins", sans-serif
+}
+
+/* 2- HEADER Y NAVEGACION */
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e278d;
+    padding: 20px;
+    border-bottom: 3px;
+    margin: 2rem;
+}
+
+header nav ul{
+    padding: 10px;
+    border: 1rem #173E69 ;
+    background-color: #7ba7d6;
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+
+header nav ul li{
+ list-style: none;
+}
+
+nav img {
+    display: flex;
+    height: 250px;
+}
+
+/* SECCIONES, TIPOGRAFIA Y JERARQUIA */
+
+main{
+    margin: 2rem;
+    background-color: #43A1D5;
+}
+
+.p{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem
+}
+
+.h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.seccion1{
+
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+
+.seccion2{
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+
+/* Estilos de la pagina EQUIPOS */
+
+.primera{
+
+}
+
+.jugador{
+    width: 170px;
+    padding: 1px;
+    margin: 20px;
+}
+.club{
+ margin: 20px;
+}
+   
+
+/* FOOTER */
+
+footer{
+    margin: 2rem;
+    background-color: #173E69;
+}
+
+/* 
+.contenedor
+   background-color (color del contenedor
+   display: flex (lo hace flexible)
+   gap: 10px (es mejor que margin para estos casos)}
+   height : 800px (altura del contenedor)
+   
+   flex-direction: column (hace que el contenedor trabaje con columnas)
+   justify-content: center (hace que se centre horizontalmente)
+   alings-items: center (hace que se centre verticalmente)
+   flex-wrap: wrap (se utiliza para que el contenido se adapte al tamaño de la pantalla)
+   
+   flex-basis: 100px (es para que cada elemento tengo su medida)
+   flex-grow: 1 (es para que cada elemento abarque de forma equitativa los espacios sobrantes)
+   flex-shrink: 1*/
