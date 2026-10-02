@@ -18,12 +18,19 @@ width: 100%;
 font-family: "Poppins" sans-serif;
 }
 
+
 /* 2- HEADER Y NAVEGACION */
+
+.messi{
+  display: flex;
+  gap: 2rem;
+  height: 250px;
+}
 
 header{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-between;
     align-items: center;
     background-color: #2e278d;
     padding: 20px;
@@ -32,6 +39,8 @@ header{
 }
 
 header nav ul{
+    display: flex;
+    gap: 2rem;
     padding: 10px;
     border: 1rem #173E69 ;
     background-color: #7ba7d6;
@@ -45,10 +54,12 @@ header nav ul li{
  list-style: none;
 }
 
-nav img {
-    display: flex;
-    height: 250px;
-}
+.nav-container{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  max-width: 1200px;
+  margin: 0 auto;}
 
 /* SECCIONES, TIPOGRAFIA Y JERARQUIA */
 
@@ -75,12 +86,6 @@ h2{
   margin-bottom: 1rem;
 }
 
-.seccionUno{
-
-    margin-bottom: 2rem;
-    padding: 20px;
-}
-
 .seccionDos{
     margin-bottom: 2rem;
     padding: 20px;
@@ -97,9 +102,12 @@ h2{
     padding: 1px;
     margin: 20px;
 }
-.club{
- margin: 20px;
-}
+/* Contenedor principal de las tarjetas */
+.equipos-container{
+  display: flex;
+  flex-direction:column;
+  gap: 2rem;
+  padding: 1.5rem;}
    
 
 /* FOOTER */
