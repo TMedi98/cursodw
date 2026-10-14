@@ -1,0 +1,214 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 1- RESET Y VARIABLES / ESTILOS GLOBALES */
+
+
+.cuerpo{
+background-color: #7ba7d6;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+font-size: 20px;  
+line-height: 1.5;
+font-family: 'Courier New', Courier, monospace;}
+
+
+/* 2- HEADER Y NAVEGACION */
+
+.fuente{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+.messi{
+  display: flex;
+  gap: 2rem;
+  height: 250px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #009148;
+    padding: 20px;
+    border-bottom: 3px;
+    margin: 2rem;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 20px;
+    border: 1rem #173E69 ;
+    background-color: #7ba7d6;
+    color: #ffffff;
+    font-size: 2rem;
+     max-width: 1200px;
+    margin: 0 auto;}
+
+
+
+header nav ul li{
+ list-style: none;
+}
+
+
+/* SECCIONES, TIPOGRAFIA Y JERARQUIA */
+
+main{
+    margin: 2rem;
+
+}
+
+.titulo{
+  color: #009148;
+  font-weight: 800;}
+
+
+.equipo-uno{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  font-weight: 800;
+
+}
+
+.lista-uno{
+  padding: 15px;
+  margin: 20px;
+  margin-bottom: 30px;
+  
+}
+
+h1{
+  font-size: 2.40rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+p{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Pagina Proyectos */
+
+.zona-a{
+  display: flex;
+  gap: 140px;
+  justify-content: center;
+}
+
+.posiciones{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-weight: 1000;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+}
+
+.subtitulo{
+  text-align: center;
+}
+
+.viernes{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  gap: 1px;
+  grid-template-areas: "item-uno item-uno item-uno item-uno"
+  "ferrito templo templo madryn"
+  "item-cinco item-cinco item-cinco item-cinco";
+}
+
+.item-uno{
+grid-area: item-uno;
+text-align: center;
+font-size: 40px;
+}
+
+.templo{
+grid-area: templo;
+border: 20px;
+}
+
+.ferrito{
+  grid-area: ferrito;
+
+}
+
+.madryn{
+grid-area: madryn;
+
+}
+
+.item-cinco{
+grid-area: item-cinco;
+text-align: center;
+font-size: 30px;
+}
+
+/* Pagina SOBRE MI */
+
+.sobremi{
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+
+/* FOOTER */
+
+footer{
+    margin: 2rem;
+    background-color: #afac04;
+}
+
+/* 
+.contenedor
+   background-color (color del contenedor
+   display: flex (lo hace flexible)
+   gap: 10px (es mejor que margin para estos casos)}
+   height : 800px (altura del contenedor)
+   
+   flex-direction: column (hace que el contenedor trabaje con columnas)
+   justify-content: center (hace que se centre horizontalmente)
+   alings-items: center (hace que se centre verticalmente)
+   flex-wrap: wrap (se utiliza para que el contenido se adapte al tamaño de la pantalla)
+   
+   flex-basis: 100px (es para que cada elemento tengo su medida)
+   flex-grow: 1 (es para que cada elemento abarque de forma equitativa los espacios sobrantes)
+   flex-shrink: 1*/
+
+   /*  */
+
+   /* display: none; oculta elementos */
+
+   /* object-fit: cover; se utiliza para dar mejor visibildad a las imagenes que no estan en su 100% de capacidad */
